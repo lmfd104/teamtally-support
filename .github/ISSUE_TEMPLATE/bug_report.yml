@@ -1,0 +1,44 @@
+name: Bug report
+description: Something in TeamTally isn't working right
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      description: Settings/About screen, or Android Settings > Apps > TeamTally
+      placeholder: "e.g. 1.8.3"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device & Android version
+      placeholder: "e.g. Pixel 8, Android 15"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What went wrong, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Tap ...
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots / extra context
+      description: Drag & drop screenshots here if you have them
+    validations:
+      required: false
