@@ -9,4 +9,4 @@ Open a [new bug report](https://github.com/lmfd104/teamtally-support/issues/new?
 Open a [feature request](https://github.com/lmfd104/teamtally-support/issues/new?template=feature_request.yml).
 
 ## Community
-Join the discussion on Discord — invite link coming soon.
+Join the discussion on [our Discord server](https://discord.gg/neNdzgu8Fy) — the #🏈-teamtally channel is the place for this app.
